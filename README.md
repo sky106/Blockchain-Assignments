@@ -1,2 +1,2 @@
 # Blockchain-Assignments
-All assignments of Blockchain Essentials course of LetsUpgrade  which is starting from (18/7/2020)
+Solutions of All Assignments of Blockchain Essentials course which is provided by LetsUpgrade Community (Starting Date - 18th July 2020)
