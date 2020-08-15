@@ -1,0 +1,61 @@
+  
+  
+                                                                  Blockchain Essential
+                                                                  
+                                                  All Contract Addresses (Deployed contracts – Ropsten Network)
+                                                  
+
+
+1) ReportCard (day 4 project)
+
+test Deployment of the smart contract can be found @ 
+0x239252622863D156E8CF61ecb5c4752834121a0E in
+https://ropsten.etherscan.io/address/0x239252622863d156e8cf61ecb5c4752834121a0e
+
+ 
+ 
+
+2) EmployeeDetails (exam Q1)
+
+1. test deployment of smart contract can be found @ 0x8D1C3c3c7A2Cbf09E12cdD594D2e5E004e6d7878 in 
+https://ropsten.etherscan.io/address/0x8d1c3c3c7a2cbf09e12cdd594d2e5e004e6d7878
+
+2. test deployment of smart contract can be found @ 
+0x4E0E90904FBA130606B96261bc0839c647B3b54c in 
+ https://ropsten.etherscan.io/address/0x4e0e90904fba130606b96261bc0839c647b3b54c
+
+3. test deployment of smart contract can be found @ 
+0x36b6d1B0C3b5aEaF4876F91726150E57B1edBEf8 in
+https://ropsten.etherscan.io/address/0x36b6d1b0c3b5aeaf4876f91726150e57b1edbef8 
+
+
+
+
+3) TrainTicketsDetails (exam Q2)
+
+1. test deployment of smart contract can be found @ 
+0x850cA9F0a526073940e94f952a7CfF2d82BFE248 in 
+https://ropsten.etherscan.io/address/0x850ca9f0a526073940e94f952a7cff2d82bfe248
+
+2. test deployment of smart contract can be found @ 
+0x4076c9024cf78118D5E951FE3792786b2851b894 in
+https://ropsten.etherscan.io/address/0x4076c9024cf78118d5e951fe3792786b2851b894 
+
+3. test deployment of smart contract can be found @ 
+0x0073950F6F9023aFA3621f6Bab409726E21d9447 in 
+https://ropsten.etherscan.io/address/0x0073950f6f9023afa3621f6bab409726e21d9447
+
+
+
+
+Important Information
+
+
+Meta Mask (Seed phrase – 12 words)
+
+prison increase glance river coach mango measure novel between tree pattern umbrella
+
+
+Meta Mask (account address)
+
+0x170e34d4db963928e901fd8e07794Af4813b8366
