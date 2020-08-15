@@ -1,0 +1,198 @@
+                                               
+                                               
+                                               
+                                                          Blockchain Essential
+                                                          
+                                                          
+                                                All Codes (Smart contracts – Remix Ethereum)
+
+
+1) LandDetails.sol (basic program)
+
+
+pragma solidity >=0.4.17 <0.7.0;
+contract myLand{ 
+    string public owner; 
+    string public value; 
+    string public area; 
+    string public location;
+    
+    function myLand(string newOwner,string newValue,string newArea,string newLoaction) public{
+        owner = newOwner;
+        value = newValue;
+        area = newArea;
+        location = newLoaction;
+    }
+
+    function setDetails(string newOwner,string newValue,string newArea,string newLoaction) public{
+        owner = newOwner;
+        value = newValue;
+        area = newArea;
+        location = newLoaction;
+    }
+
+    function getDetails() public view returns(string,string,string,string){
+        return(owner,value,area,location);
+    }
+}
+
+
+
+
+
+
+
+2) LandContract.sol (Sai sir - code)
+
+
+pragma solidity ^0.4.17 < 0.6.12; 
+
+contract LandRecord{
+    string public owner;
+    uint public   value ;
+    string public location;
+    string public area;
+    string public legalId;
+    
+    function LandRecord(string newOwner, uint newValue, string newLocation, string newArea, string newLegalId) public{
+        owner = newOwner;
+        value = newValue;
+        location = newLocation;
+        area = newArea;
+        legalId = newLegalId;
+    }
+    
+    function setLandNewDetails(string newOwner, uint newValue) public{   
+        owner = newOwner;
+        value = newValue;
+    }
+
+    function getLandCurrentDetails() public view returns(string,uint,string,string,string){
+        return(owner, value, location, area, legalId);
+    }    
+}
+
+
+
+
+
+
+Day 4 Project
+
+3) ReportCard.sol
+
+pragma solidity >=0.4.17 <0.7.0;
+
+contract ReportCard{
+    string public name;
+    string public rollNo;
+    string public batch;
+    uint public marathi;
+    uint public hindi;
+    uint public english;
+    uint public science;
+    string public status;
+
+    function ReportCard(string newName, string newRollNo, string newBatch, uint newMarathi, uint newHindi, uint newEnglish, uint newScience)public {
+        name = newName;
+        rollNo = newRollNo;
+        batch = newBatch;
+        
+        //Enter the marks out of 100 for 4 subjects (i.e marathi, hindi, english, science) 
+        
+        marathi = newMarathi;
+        hindi = newHindi;
+        english = newEnglish;
+        science= newScience;
+        
+        if(marathi >= 35 && hindi >= 35 && english >= 35 && science >= 35){
+            status = "Pass";
+        }
+        else{
+            status = "Fail";
+        }
+    }
+   
+    function getDetails()public view returns(string,string,string,uint,uint,uint,uint,string) {
+        return(name, rollNo, batch, marathi, hindi, english, science, status);
+    }
+}
+
+
+
+
+
+
+Exam Questions
+
+4) EmployeeDetails.sol 
+
+pragma solidity >=0.4.17 <0.7.0;
+contract EmployeeDetails{
+  
+    string public Name; 
+    uint public Age;
+    string public Address; 
+    string public Designation;
+    uint public MobileNo;
+    
+    function EmployeeDetails(string newName, uint newAge, string newAddress, string newDesignation, uint newMobileNo) public{
+        Name = newName;
+        Age = newAge;
+        Address = newAddress;
+        Designation = newDesignation;
+        MobileNo = newMobileNo;
+    }
+
+    function setDetails(string newName, uint newAge, string newAddress, string newDesignation, uint newMobileNo) public{
+        Name = newName;
+        Age = newAge;
+        Address = newAddress;
+        Designation = newDesignation;
+        MobileNo = newMobileNo;
+    }
+
+    function getDetails() public view returns(string,uint,string,string,uint){
+        return(Name,Age,Address,Designation,MobileNo);
+    }
+}
+
+
+
+
+
+
+5) TrainTicketsDetails.sol
+
+pragma solidity >=0.4.17 <0.7.0;
+contract TrainTicketDetails{
+    
+    string public TicketNo;
+    string public TicketHolderName;
+    string public SeatNo;
+    string public Source; 
+    string public Destination;
+    uint public Fare;
+    
+    function TrainTicketDetails(string newTicketNo, string newTicketHolderName, string newSeatNo, string newSource, string newDestination, uint newFare) public{
+        TicketNo = newTicketNo;
+        TicketHolderName = newTicketHolderName;
+        SeatNo = newSeatNo;
+        Source = newSource;
+        Destination = newDestination;
+        Fare = newFare;
+    }
+
+    function setDetails(string newTicketNo, string newTicketHolderName, string newSeatNo, string newSource, string newDestination, uint newFare) public{
+        TicketNo = newTicketNo;
+        TicketHolderName = newTicketHolderName;
+        SeatNo = newSeatNo;
+        Source = newSource;
+        Destination = newDestination;
+        Fare = newFare;
+    }
+
+    function getDetails() public view returns(string,string,string,string,string,uint){
+        return(TicketNo,TicketHolderName,SeatNo,Source,Destination,Fare);
+    }
+}
